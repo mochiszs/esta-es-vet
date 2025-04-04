@@ -22,56 +22,56 @@ export default function Servicios() {
       title: "Consultas",
       description:
         "Ofrecemos consultas generales y especializadas para diagnosticar y tratar diversas condiciones de salud en su mascota. Nuestros veterinarios realizan un examen completo y desarrollan un plan de tratamiento personalizado.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/nuevasfotos/CONSULTAS_Mesa de trabajo 1.jpg",
     },
     {
       id: 2,
       title: "Cirugías",
       description:
         "Realizamos procedimientos quirúrgicos desde rutinarios hasta complejos, incluyendo esterilizaciones, castraciones, cirugías ortopédicas y de tejidos blandos. Contamos con un quirófano completamente equipado y monitoreo avanzado.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/nuevasfotos/CIRUGÍAS_Mesa de trabajo 1.jpg",
     },
     {
       id: 3,
       title: "Exámenes de Laboratorio",
       description:
         "Nuestro laboratorio interno permite realizar análisis de sangre, orina, heces y citologías con resultados rápidos. Estos exámenes son fundamentales para el diagnóstico preciso de enfermedades y evaluación de la salud general.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/nuevasfotos/EXÁMENES DE LABORATORIO_Mesa de trabajo 1.jpg",
     },
     {
       id: 4,
       title: "Vacunación",
       description:
         "Ofrecemos programas de vacunación personalizados según la edad, estilo de vida y riesgos específicos de su mascota. Las vacunas son esenciales para prevenir enfermedades infecciosas potencialmente graves.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/nuevasfotos/VACUNACIÓN_Mesa de trabajo 1.jpg",
     },
     {
       id: 5,
       title: "Baños y Grooming",
       description:
         "Nuestros servicios de peluquería incluyen baños terapéuticos, cortes de pelo, cepillado, limpieza de oídos y corte de uñas. Un buen aseo no solo mejora la apariencia sino también la salud de su mascota.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/nuevasfotos/BAÑOS Y GROOMING_Mesa de trabajo 1.jpg",
     },
     {
       id: 6,
       title: "Pet Shop",
       description:
         "Disponemos de una tienda con alimentos premium, suplementos, accesorios y productos de cuidado seleccionados por nuestros veterinarios. Ofrecemos asesoramiento personalizado para elegir los productos más adecuados.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/nuevasfotos/PETSHOP_Mesa de trabajo 1.jpg",
     },
     {
       id: 7,
       title: "Desparasitación",
       description:
         "Implementamos programas de desparasitación interna y externa adaptados a las necesidades de cada mascota. Los parásitos pueden causar problemas de salud graves, por lo que la prevención regular es fundamental.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/nuevasfotos/DESPARASITACION_Mesa de trabajo 1.jpg",
     },
     {
       id: 8,
       title: "Otros Servicios",
       description:
         "Ofrecemos servicios adicionales como radiografías, ecografías, hospitalización, tratamientos dentales, fisioterapia y asesoramiento nutricional para cubrir todas las necesidades de salud de su mascota.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/nuevasfotos/OTROS SERVICIOS_Mesa de trabajo 1.jpg",
     },
   ]
 

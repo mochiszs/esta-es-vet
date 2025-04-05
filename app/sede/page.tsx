@@ -9,7 +9,7 @@ export default function Sede() {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center mb-12 text-[#09465b]">Nuestra Sede</h1>
 
-          {/* Contenedor de imágenes y texto de ubicación */}
+          {/* Contenedor de imágenes y texto de ubicación (ahora ubicado arriba) */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
             {/* Imagen exterior de la clínica */}
             <div className="lg:col-span-1">
@@ -22,28 +22,7 @@ export default function Sede() {
               />
             </div>
 
-            {/* Sección de "Cómo Llegar" (moved to left) */}
-            <div className="lg:col-span-1">
-              <div className="bg-[#09465b] rounded-lg shadow-md p-6 mb-8">
-                <h2 className="text-2xl font-bold mb-4 text-center text-[#f7f3e6]">Cómo Llegar</h2>
-                <div className="aspect-video w-full mb-6">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.6043298304734!2d-77.02419582400184!3d-12.0755966425538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6f8d48c6eb3%3A0x87c85d3e96f8266f!2sAv.%2013%20de%20Enero%202201%2C%20San%20Juan%20de%20Lurigancho%2015412%2C%20Per%C3%BA!5e0!3m2!1ses!2spe!4v1712047156483!5m2!1ses!2spe"
-                    width="100%"
-                    height="450"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Ubicación de la clínica veterinaria"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Detalles de ubicación (moved to right) */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+            {/* Sección de "Ubicación" */}
             <div className="lg:col-span-1">
               <div className="h-full bg-[#09465b] rounded-lg shadow-md p-6">
                 <h2 className="text-2xl font-bold mb-4 text-[#f7f3e6]">Ubicación</h2>
@@ -67,6 +46,27 @@ export default function Sede() {
                 </p>
               </div>
             </div>
+          </div>
+
+          {/* Contenedor de "Cómo Llegar" */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+            <div className="lg:col-span-1">
+              <div className="bg-[#09465b] rounded-lg shadow-md p-6 mb-6">
+                <h2 className="text-2xl font-bold mb-4 text-center text-[#f7f3e6]">Cómo Llegar</h2>
+                <div className="aspect-video w-full mb-8">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249744.0323955765!2d-77.1231594!3d-12.0463731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses!2spe!4v1649457755201!5m2!1ses!2spe"
+                    width="100%"
+                    height="450"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Ubicación de la clínica veterinaria"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
 
             {/* Imagen interior de la clínica */}
             <div className="lg:col-span-1">
@@ -74,7 +74,7 @@ export default function Sede() {
                 src="/nuevasfotos/FOTO VET_Mesa de trabajo 1.jpg"
                 alt="Interior de la clínica"
                 width={800}
-                height={400}
+                height={300}
                 className="w-full h-auto object-cover rounded-lg shadow-md"
               />
             </div>
